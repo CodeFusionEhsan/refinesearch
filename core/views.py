@@ -4,12 +4,9 @@ from io import BytesIO
 from PIL import Image
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
 import numpy as np
-import boto3
 import requests
 from django.views.decorators.csrf import csrf_exempt
 from ultralytics import YOLO
-import pandas as pd
-
 def home(request):
     return render(request, 'home.html')
 
