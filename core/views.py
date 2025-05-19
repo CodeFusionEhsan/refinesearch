@@ -6,7 +6,6 @@ from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, d
 import numpy as np
 import boto3
 import requests
-from bs4 import BeautifulSoup
 from django.views.decorators.csrf import csrf_exempt
 from ultralytics import YOLO
 import pandas as pd
